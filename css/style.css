@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*FONT IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Raleway:ital,wght@0,500;1,900&family=Ubuntu:ital,wght@1,700&display=swap');
+
+body{
+    background-image: url(../assets/img/imgprogramacion.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 58px;
+}
+
+#piedepagina{
+    /*Modelo*/
+    background: rgb(143, 143, 143);
+    text-align: center;
+}
