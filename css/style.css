@@ -23,3 +23,14 @@ h1{
     background: rgb(143, 143, 143);
     text-align: center;
 }
+
+#cnt1imdindex{
+    width: 55px;
+    height: 55px;
+    justify-content: center;
+}
+
+#parrafoindex1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
