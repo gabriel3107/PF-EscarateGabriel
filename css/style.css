@@ -62,7 +62,7 @@ span{
     justify-content: center;
 }
 
-#parrafoindex1{
+#parrafo1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
@@ -176,3 +176,5 @@ ul li:hover .titulo{
     transform: scale(1);
     transition-delay: 0.25s;
 }
+
+/*CSS CONSTRUCCION*/
