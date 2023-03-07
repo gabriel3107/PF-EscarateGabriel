@@ -2,6 +2,16 @@
 @import "fuentes";
 @import "fondo";
 
+/*mixin*/
+@mixin cntimg(){
+    width: 55px;
+    height: 55px;
+    text-align: center;
+}
+
+#cnt1imdservicios{
+    @include cntimg();
+}
 
 /*Variables globales*/
 $color-titulo: black;
@@ -57,9 +67,7 @@ span{
 }
 
 #cnt1imdindex{
-    width: 55px;
-    height: 55px;
-    justify-content: center;
+    @include cntimg();
 }
 
 #parrafo1{
@@ -177,9 +185,5 @@ ul li:hover .titulo{
     transition-delay: 0.25s;
 }
 
-#cnt1imdservicios{
-    width: 55px;
-    height: 55px;
-    text-align: center;
-}
+
 /*CSS CONSTRUCCION*/
