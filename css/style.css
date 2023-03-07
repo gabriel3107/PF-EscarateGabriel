@@ -1,180 +1,197 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+/*IMPORT*/
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&family=Raleway:ital,wght@0,500;1,900&family=Ubuntu:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Moon+Dance & family= Raleway:ital,wght@0,500;1,900 & family= Ubuntu:ital,wght@0,700;1,700 & mostrar=cambiar");
+#tituloGeneral {
+  color: black;
+  font-size: 60px;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  /*fondo*/
+  background-color: whitesmoke;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0'%3E%3Cstop offset='0' stop-color='%230FF'/%3E%3Cstop offset='1' stop-color='%23CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23F00'/%3E%3Cstop offset='1' stop-color='%23FC0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='2'%3E%3Cpath transform='translate(0 0)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='4' transform='rotate(0 800 450)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(0 0)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='4'%3E%3Cpath transform='translate(0 0)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='8' transform='rotate(0 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='rotate(0 1400 132)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*Variables globales*/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 /*FONT IMPORT*/
-@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Raleway:ital,wght@0,500;1,900&family=Ubuntu:ital,wght@1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Moon+Dance & family= Raleway:ital,wght@0,500;1,900 & family= Ubuntu:ital,wght@0,700;1,700 & mostrar=cambiar');
-
-body{
-    justify-content: center;
-    align-items: center;
-    /*fondo*/
-    background-color: whitesmoke;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0'%3E%3Cstop offset='0' stop-color='%230FF'/%3E%3Cstop offset='1' stop-color='%23CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23F00'/%3E%3Cstop offset='1' stop-color='%23FC0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='2'%3E%3Cpath transform='translate(0 0)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='4' transform='rotate(0 800 450)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(0 0)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='4'%3E%3Cpath transform='translate(0 0)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='8' transform='rotate(0 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='rotate(0 1400 132)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    background-attachment: fixed;
-    background-size: cover;
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 58px;
 }
 
-h1{
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    font-size: 58px;
-}
-span{
-    display: flex;
-}
-.card{
-    margin: auto;
+span {
+  display: flex;
 }
 
-#titulo1{
-    /*Modelo*/
-    color: black;
-    text-align: center;
+.card {
+  margin: auto;
 }
 
-#TituloGeneral{
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 60px; 
-    color: black;  
+#titulo1 {
+  /*Modelo*/
+  color: black;
+  text-align: center;
 }
 
-#titulosomos{
-    /*Modelo*/
-    color: black;
-    text-align: center;
-    font-size: 50px;
+/* #TituloGeneral {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  color: black;
+} */
+
+#titulosomos {
+  /*Modelo*/
+  color: black;
+  text-align: center;
+  font-size: 50px;
 }
 
-#piedepagina{
-    /*Modelo*/
-    background: rgb(143, 143, 143);
-    text-align: center;
+#piedepagina {
+  /*Modelo*/
+  background: rgb(143, 143, 143);
+  text-align: center;
 }
 
-#cnt1imdindex{
-    width: 55px;
-    height: 55px;
-    justify-content: center;
+#cnt1imdindex {
+  width: 55px;
+  height: 55px;
+  justify-content: center;
 }
 
-#parrafo1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+#parrafo1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
 }
 
-a{
-    font-size: 15px;
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+a {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-a:hover{
-    background: #198754;
-    border-radius: 5px;
-    color: white;
-    padding: 3px;
-    cursor: pointer;
+a:hover {
+  background: #198754;
+  border-radius: 5px;
+  color: white;
+  padding: 3px;
+  cursor: pointer;
 }
 
-a:link{
-    color: blue;
-    font-weight: bold
+a:link {
+  color: blue;
+  font-weight: bold;
 }
-
 
 /*BOTONES DE FB,INS,WPP*/
-ul{
-    position: relative;
-    display: flex;
-    gap: 25px;
-    justify-content: center;
+ul {
+  position: relative;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
 }
 
-ul li{
-    position: relative;
-    list-style: none;
-    width: 60px;
-    height: 60px;
-    border-radius: 60px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.1);
-    transition: 0.5s;
+ul li {
+  position: relative;
+  list-style: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
 }
 
-ul li:hover{
-    width: 180px;
-    box-shadow:0 10px 25px rgb(0, 0, 0, 0);
+ul li:hover {
+  width: 180px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
 }
 
-ul li::before{
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: 50px;
-    background: linear-gradient(45deg, var(--i), var(--j));
-    opacity: 0;
-    transition: 0.5s;
+ul li::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50px;
+  background: linear-gradient(45deg, var(--i), var(--j));
+  opacity: 0;
+  transition: 0.5s;
 }
 
-ul li:hover::before{
-    opacity: 1;
+ul li:hover::before {
+  opacity: 1;
 }
 
-ul li::after{
-    content: '';
-    position: absolute;
-    top: 10px;
-    width: 100%;
-    height: 100%;
-    border-radius: 60px;
-    background: linear-gradient(45deg, var(--i), var(--j));
-    opacity: 0;
-    transition: 0.5s;
-    z-index: -1;
-    filter: blur(15px);
+ul li::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 60px;
+  background: linear-gradient(45deg, var(--i), var(--j));
+  opacity: 0;
+  transition: 0.5s;
+  z-index: -1;
+  filter: blur(15px);
 }
 
-ul li:hover::after{
-    opacity: 0.5;
+ul li:hover::after {
+  opacity: 0.5;
 }
 
-ul li i{
-    color: #777;
-    font-size: 1.75em !important;
-    transition: 0.5s;
-    transition-delay: 0.25s;
+ul li i {
+  color: #777;
+  font-size: 1.75em !important;
+  transition: 0.5s;
+  transition-delay: 0.25s;
 }
 
-ul li:hover i{
-    transform: scale(0);
-    font-size: 1.75em;
-    transition-delay: 0.25s;
+ul li:hover i {
+  transform: scale(0);
+  font-size: 1.75em;
+  transition-delay: 0.25s;
 }
 
-ul li span{
-    position: absolute;
+ul li span {
+  position: absolute;
 }
-ul li .titulo{
-    color: #fff;
-    font-size: 1.1em !important;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    transform: scale(0);
-    transition: 0.5s;
-    transition-delay: 0s;
+
+ul li .titulo {
+  color: #fff;
+  font-size: 1.1em !important;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transform: scale(0);
+  transition: 0.5s;
+  transition-delay: 0s;
 }
-ul li:hover .titulo{
-    transform: scale(1);
-    transition-delay: 0.25s;
+
+ul li:hover .titulo {
+  transform: scale(1);
+  transition-delay: 0.25s;
+}
+
+#cnt1imdservicios {
+  width: 55px;
+  height: 55px;
+  text-align: center;
 }
 
 /*CSS CONSTRUCCION*/
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+$font-parrafo: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$font-size: 18px;
+
+
+$tituloG:(
+    color: black,
+    centro: center,
+    tfuente: 60px,
+);
+
+#tituloGeneral{
+    color: map-get($map: $tituloG, $key: color);
+    text-align: map-get($map: $tituloG, $key: center);
+    font-size: map-get($map: $tituloG, $key:tfuente );
+}
