@@ -1,0 +1,19 @@
+{
+  "name": "preentrega3-escarategabriel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel3107/Preentrega2-EscarateGabriel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel3107/Preentrega2-EscarateGabriel/issues"
+  },
+  "homepage": "https://github.com/gabriel3107/Preentrega2-EscarateGabriel#readme"
+}
