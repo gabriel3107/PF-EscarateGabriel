@@ -1,6 +1,7 @@
 /*IMPORT*/
 @import "fuentes";
 @import "fondo";
+@import "button";
 
 /*mixin*/
 @mixin cntimg(){
@@ -12,6 +13,33 @@
 #cnt1imdservicios{
     @include cntimg();
 }
+#cnt1imdcontacto{
+    @include cntimg();
+}
+
+.divinfo{
+    /*Modelo*/
+    display: flex;
+    width: 80%;
+    height: 200px;
+    padding: auto;
+    margin: auto;
+   background: rgb(53, 53, 53);
+    /*tipografia*/
+    font-family: $font-parrafo;
+}
+
+#divcont{
+    /*Modelo*/
+     width: 35%;
+     height: 170px;
+     margin: 20px;
+     padding: 10px;
+    /* text-decoration: none;*/
+     /*tipografia*/
+     font-family: $font-parrafo;
+     color: white;
+ }
 
 /*Variables globales*/
 $color-titulo: black;
@@ -42,6 +70,11 @@ span{
 #titulo1{
     /*Modelo*/
     color: $color-titulo;
+    text-align: center;
+}
+
+#titulosubage{
+    color: black;
     text-align: center;
 }
 
@@ -94,95 +127,6 @@ a:link{
     font-weight: bold
 }
 
-
-/*BOTONES DE FB,INS,WPP*/
-ul{
-    position: relative;
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-}
-
-ul li{
-    position: relative;
-    list-style: none;
-    width: 60px;
-    height: 60px;
-    border-radius: 60px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.1);
-    transition: 0.5s;
-}
-
-ul li:hover{
-    width: 180px;
-    box-shadow:0 10px 25px rgb(0, 0, 0, 0);
-}
-
-ul li::before{
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: 50px;
-    background: linear-gradient(45deg, var(--i), var(--j));
-    opacity: 0;
-    transition: 0.5s;
-}
-
-ul li:hover::before{
-    opacity: 1;
-}
-
-ul li::after{
-    content: '';
-    position: absolute;
-    top: 10px;
-    width: 100%;
-    height: 100%;
-    border-radius: 60px;
-    background: linear-gradient(45deg, var(--i), var(--j));
-    opacity: 0;
-    transition: 0.5s;
-    z-index: -1;
-    filter: blur(15px);
-}
-
-ul li:hover::after{
-    opacity: 0.5;
-}
-
-ul li i{
-    color: #777;
-    font-size: 1.75em !important;
-    transition: 0.5s;
-    transition-delay: 0.25s;
-}
-
-ul li:hover i{
-    transform: scale(0);
-    font-size: 1.75em;
-    transition-delay: 0.25s;
-}
-
-ul li span{
-    position: absolute;
-}
-ul li .titulo{
-    color: #fff;
-    font-size: 1.1em !important;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    transform: scale(0);
-    transition: 0.5s;
-    transition-delay: 0s;
-}
-ul li:hover .titulo{
-    transform: scale(1);
-    transition-delay: 0.25s;
-}
 
 
 /*CSS CONSTRUCCION*/
