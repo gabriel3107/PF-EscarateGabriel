@@ -10,11 +10,39 @@
     text-align: center;
 }
 
+@mixin cntsecubi(){
+    margin: 10px;
+    font-family: $font-parrafo;
+    font-size: 20px;
+    color: black;
+    text-align: center
+}
+
+@mixin divcnt(){
+    display: flex;
+    margin: auto;
+    padding: auto;
+    width: 80%;
+    height: 80%;
+    background-color: #a4fdd3f3; 
+}
+
 #cnt1imdservicios{
     @include cntimg();
 }
 #cnt1imdcontacto{
     @include cntimg();
+}
+
+#ContenedorSecUbic{
+    @include cntsecubi();
+}
+
+#divVisionMision{
+    @include divcnt();
+}
+#divContacto{
+    @include divcnt();
 }
 
 .divinfo{
@@ -40,6 +68,26 @@
      font-family: $font-parrafo;
      color: white;
  }
+
+ #ContenedorUbic{
+    /*Modelo*/
+    display: flex;
+    padding: 0%;
+    width: 100%;
+    height: 230px;
+    background: rgb(53, 53, 53);
+    font-size: 20px;
+}
+
+#ContenedorSecUbic1{
+    /*Modelo*/
+    width: 45%;
+    height: 200px;
+    margin: 35px;
+    /*tipografia*/
+    font-family: $font-parrafo;
+    color: white;
+}
 
 /*Variables globales*/
 $color-titulo: black;
